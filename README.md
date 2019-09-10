@@ -15,3 +15,11 @@ This repository is a TensorFlow implementation of the paper "[Deep CT to MR Synt
 <p align='center'>
   <img src="https://user-images.githubusercontent.com/37034031/64340046-39470f80-d020-11e9-8e2b-9e44cb78f117.jpg" width=600)
 </p>
+
+<p align='center'>
+  <img src="https://user-images.githubusercontent.com/37034031/64615263-2ca62b00-d415-11e9-9aa5-6c6ed089d756.png" width=700)
+</p>
+  
+<p align='center'>
+  <img src="https://user-images.githubusercontent.com/37034031/64614965-89551600-d414-11e9-9105-2adb127e7133.png" width=800)
+</p>
