@@ -9,4 +9,6 @@ src/sample_0/
 src/sample_1/
 src/test_0/
 src/test_1/
-stc/test01/
+src/test01/
+src/.idea/
+src/__pycache__/
