@@ -6,6 +6,11 @@ This repository is a TensorFlow implementation of the paper "[Deep CT to MR Synt
 </p>
 
 ## Requirements
+- tensorflow 1.14.0
+- numpy 1.16.2
+- opencv 4.1.0.25
+- scipy 1.2.1
+- matplotlib 3.0.3
 
 ## CT-Based Synthetic MRI Generation Results
 <p align='center'>
