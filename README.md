@@ -15,7 +15,7 @@ This repository is a TensorFlow implementation of the paper "[Deep CT to MR Synt
 ## CT-Based Synthetic MRI Generation Results
 <p align='center'>
   <img src="https://user-images.githubusercontent.com/37034031/64340013-29c7c680-d020-11e9-8fe8-e618338a923f.jpg" width=600)
-</p>
+</p>  
 The above figure shows a qualitative comparison between the paired training, unpaired training, and the approach presented herein. The results of the training with paired data appeared reasonable but generated blurry outputs. The images obtained with unpaired training were realistic but lost anatomical information in areas of soft brain tissue and contained artifacts in areas with bony structures. The method presented herein learns estimation using paired and unpaired data. While the quality of the results closely approximates the reference MR images, for some details, the resutls obtained are observed to be much clearer than the reference MR images.
   
 <p align='center'>
