@@ -18,11 +18,14 @@ The following figure shows a qualitative comparison between the paired training,
 <p align='center'>
   <img src="https://user-images.githubusercontent.com/37034031/64340013-29c7c680-d020-11e9-8fe8-e618338a923f.jpg" width=600)
 </p>  
-  
+
+The figure shows an input CT image, and the corresponding synthesized MR images from the CycleGAN and MR-GAN. It also shows their reconstructed CT images and their relative difference maps. It is observed that the reconstructed CT images are very close to the input images. The relative differences are distributed at the contour of the bone, and the reconstructed CT images from MR-GAN is apparently more smoothed than that from the CycleGAN model.  
+
 <p align='center'>
   <img src="https://user-images.githubusercontent.com/37034031/64340046-39470f80-d020-11e9-8e2b-9e44cb78f117.jpg" width=600)
-</p>
+</p>  
 
+The MR-GAN procedure is described in the following Algorithm:
 <p align='center'>
   <img src="https://user-images.githubusercontent.com/37034031/64615263-2ca62b00-d415-11e9-9aa5-6c6ed089d756.png" width=700)
 </p>
