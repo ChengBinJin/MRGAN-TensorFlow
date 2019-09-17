@@ -32,8 +32,70 @@ The figure shows an input CT image, and the corresponding synthesized MR images 
 
 ## Documentation
 ### Directory Hierarchy
+``` 
+MRGAM
+├── src
+│   ├── DC2Anet
+│   │   ├── build_data.py
+│   │   ├── cycle_gan.py
+│   │   ├── data_preprocess.py
+│   │   ├── dataset.py
+│   │   ├── DB05_data_preprocessing.py
+│   │   ├── dcgan.py
+│   │   ├── eval.py
+│   │   ├── experiments.py
+│   │   ├── gan_repository.py
+│   │   ├── laplotter.py
+│   │   ├── main.py
+│   │   ├── mnist_dataset.py
+│   │   ├── mrigan.py
+│   │   ├── mrigan_01.py
+│   │   ├── mrigan_02.py
+│   │   ├── mrigan01_lsgan.py
+│   │   ├── mrigan02.py
+│   │   ├── mrigan02_lsgan.py
+│   │   ├── mrigan03.py
+│   │   ├── mrigan03_lsgan.py
+│   │   ├── pix2pix.py
+│   │   ├── pix2pix_patch.py
+│   │   ├── reader.py
+│   │   ├── solver.py
+│   │   ├── TensorFlow_utils.py
+│   │   ├── test.py
+│   │   ├── test_main.py
+│   │   ├── test_solver.py
+│   │   ├── utils.py
+│   │   ├── vanila_gan.py
+│   │   └── wgan.py
+Data
+├── brain01
+│   └── raw
+└── brain02
+│   ├── CT.tfrecords
+│   └── MRI.tfrecords
+```  
 
 ### Training MR-GAN
+Under the folder of the src, using `main.py` train a DC2Anet model. Example usage:
+```
+python main.py 
+```
+- `gan_model`: select gan model, default: `pix2pix`
+- `is_train`: training or inference mode, default: `False`
+- `is_continue`: continue training, default: `False`
+- `gpu_index`: gpu index if you have multiple gpus, default: `0`
+- `dataset`: dataset name, default: `brain01`  
+- `which_direction`: AtoB (0) or BtoA (1), default: `0`
+- `sample_batch`: sample batch size, default: `4`
+- `batch_size`: batch size, default: `4`
+- `learning_rate`: initial learning rate for Adam, default: `2e-4` 
+- `z_dim`: dimension of z vector, default: `100`
+- `beta1`: momentum term of Adam, default: `0.5`
+- `iters`: number of iterations, default: `200000` 
+- `save_freq`: save frequency for model, default: `10000`
+- `print_freq`: print frequency for loss, default: `100` 
+- `sample_freq`: sample frequency for saving image, default: `500`
+- `load_model`: folder of saved model that you wish to continue training, (e.g. 20181127-2116), default: `None`  
 
 ### Test MR-GAN
 
