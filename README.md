@@ -98,6 +98,17 @@ python main.py
 - `load_model`: folder of saved model that you wish to continue training, (e.g. 20181127-2116), default: `None`  
 
 ### Test MR-GAN
+Use `main.py` to test the MR-GAN model. Example usage:
+```
+python main.py --load_model=folder/you/wish/to/test/e.g./20181127-2116
+```
+please refer to the above arguments.
+
+### Tensorboard Visualization
+Tensorboard collects all of the loss terms. Under the folder `src\logs`, using the following command:
+```
+tensorboard --logdir=folder/you/wish/to/test/e.g./20181127-2116
+```
 
 ### Algorithm
 The MR-GAN procedure is described in the following Algorithm:
