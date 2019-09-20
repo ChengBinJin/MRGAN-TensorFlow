@@ -121,3 +121,17 @@ Table 1 shows a quantitative evaluation using MAE and PSNR to compare the differ
 <p align='center'>
   <img src="https://user-images.githubusercontent.com/37034031/64614965-89551600-d414-11e9-9105-2adb127e7133.png" width=800)
 </p>
+  
+### Citation
+```
+  @misc{chengbinjin2019MRGAN,
+    author = {Cheng-Bin Jin},
+    title = {MRGAN-Tensorflow},
+    year = {2019},
+    howpublished = {\url{https://github.com/ChengBinJin/MRGAN-TensorFlow},
+    note = {commit xxxxxxx}
+  }
+```
+
+## License
+Copyright (c) 2018 Cheng-Bin Jin. Contact me for commercial use (or rather any use that is not academic research) (email: sbkim0407@gmail.com). Free for research use, as long as proper attribution is given and this copyright notice is retained.
